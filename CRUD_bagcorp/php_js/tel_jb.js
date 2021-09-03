@@ -50,6 +50,7 @@ var fila;
           $(".modal-title").css("align", "center");
           $(".modal-title").css("height", "12px")
           $("#modalREPO_TJ").modal("show");
+          alert("pero");
         });
 
 
