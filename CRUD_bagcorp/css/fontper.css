@@ -1,0 +1,10 @@
+@font-face {
+font-family: 'miFuente';
+src: url(../fonts/Orenburg-Bold.ttf);
+}
+#letras_personal{
+	font-family: 'miFuente';
+	font-size: 1.5em;
+	 color: #5e5e5e;
+	 margin-top: 10px;
+}

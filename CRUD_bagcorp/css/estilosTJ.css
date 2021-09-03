@@ -1,0 +1,78 @@
+body {
+  background-color: #f5f5f5;
+  font-family: monospace !important;
+  font-size: 15px;
+}
+table.dataTable thead {
+  /*colores que le dan estilo a el datatable*/
+  background: #4295ec;
+  color: white;
+}
+.caja {
+  /*div que contiene el encavezado del datatable*/
+  padding: 5px;
+  box-shadow: 10px 10px 50px 1px #7c7c81;
+}
+.btn1{ /*BOTON lapicito editar que aparece repetido en los resultados*/
+    cursor: pointer;
+}
+.btn2{ /*BOTON 2 delete(aparece repetido en los resultados)*/
+    cursor: pointer;
+}
+.azulitos{
+  padding-top: 0px;
+  background:#4cb6ea;
+  color: #fff;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+#btnExcel{/*BOTON de descarga de excel*/
+  	background: #6db371;
+  	color: #fff;
+  	border: none;
+    cursor: pointer;
+}
+
+#lupita{
+  background:#4cb6ea;
+  color: #fff;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.flotarizquierda{
+  float: left;
+}
+.BARRA_DE_BOTONES{
+/*display: flex;*/
+}
+#divExcel{
+  position: absolute;
+  margin-left: 1050px;
+}
+#lupita{
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 745px;
+}
+#divturno{
+position: absolute;
+  margin-left: 720px;
+}
+#divfechas{
+  position: absolute;
+    margin-left: 220px;
+}
+.separado{
+  margin-top: 5px;
+}
+
+#lblevento{
+  margin-bottom: 0px;
+}
+lblfecha{
+  margin-bottom: 0px;
+  padding-top: 0px;
+}

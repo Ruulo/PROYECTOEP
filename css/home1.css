@@ -1,0 +1,177 @@
+﻿}
+.txtuserreg {
+	font-size: 30px;
+	font-weight: bold;
+	height:25px;
+	 
+	 
+}
+#c1{
+	background-color:#CCC;
+	margin-top:30px  ;
+	}
+	#c2{
+	 
+	background-color: #fffff7;
+	height: auto;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	overflow: auto;
+	color: #000000;
+	}
+.tbl {
+	text-align: center;
+}
+img.a:hover{ /* COLOR DE IMAGEN*/
+	color:;}
+	
+header{ 
+		width:900px;
+		height:200px;
+		background-color:#999;
+	margin-top:10px auto ;}
+		div.q{ /* DIVICION*/
+			width:225px;
+			height:200px;
+			float:left;
+			 
+			-webkit-transition: height .4s;}
+		
+		div#uno{ /* COLOR DE DIVICION 1 , FONDO*/
+			
+  background: -webkit-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* W3C */}
+		div#dos{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			
+  background: -webkit-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FCE4EC  10%, #F48FB1 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* W3C */}
+		
+		div#tres{
+			 background: -webkit-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* W3C */
+        
+			
+			
+		}
+		
+		div#custro{
+			  background: -webkit-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FCE4EC  10%, #F48FB1 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FCE4EC   10%, #F48FB1 90%); /* W3C */
+		}
+		
+img.icon{
+	height:70px;
+	width:70px;
+	display:block;
+margin-top: 20px;
+
+}
+
+p.text{ /* TEXTO*/
+	
+font-size:1.12em;
+color: #000000;	
+text-align:center;
+padding-top:10px;
+opacity:.5;
+-webkit-transition:padding-top .4s;
+
+
+	
+	
+}
+p.text a{ /* TEXTO*/
+	
+	
+	text-decoration:none;
+	color:#000;
+}
+div.q:hover{ /* UBICACION DE LA DIVICION*/
+	height:210px;
+	
+	
+}
+div.q:hover p.text{ /*TAMAÑO DE LA DIVICION Y DEL TEXTO */
+	
+	padding-top:20px;
+	
+}
+div.q:hover img.icon{ /* DIVICION Y ICONO DE LA IMAGEN*/
+ 
+}
+div#below{ /* DIVICION*/
+	margin-top: 20px;
+}
+img.n{/* IMAGEN*/
+	height:70px;
+	width:70px;
+	display:block;
+	margin:  12px auto;	
+}
+
+#dash{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+	height:auto;
+}
+header1{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+		width:900px;
+		height:200px;
+		background-color:#999;
+	margin-top:20px auto ;
+	   
+	 
+		
+	}
+	
+		
+		div#c{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+		
+ background: -webkit-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* W3C */
+        
+        
+			
+			
+		}
+		div#d{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			background-color:rgb(186,186,168) ;
+		}
+		
+		div#e{/* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			background-color:rgb(186,186,168);
+			
+			
+		}
+		
+		div#f{
+			background-color:rgb(186,186,168);
+		}
+p.headtext{
+	text-align:center;
+	font-size:18px;
+}.headtext {
+	font-weight: bold;
+}
+#head #logo .headtext {
+	font-size: 18px;
+}
+
+ 
+ 
+
+

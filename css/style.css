@@ -1,0 +1,123 @@
+
+header{
+	width: 100%;
+	border-bottom: 5px solid #00A1D6;
+	background: #fff;
+	overflow: auto;
+}
+
+
+.flex{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+	background: transparent;
+}
+main{	
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 450px;
+	overflow-y: auto;
+	padding: 20px 0;
+}
+h1 {
+	font-size: 1.8em;
+	color: #555555;
+	text-align: center;
+}
+@media screen and (max-width: 1000px) {
+	main, .flex{
+		width: 95%;
+	}	
+}
+
+
+
+
+
+
+/* Formulario de envio */
+.form{
+	width: 480px;
+	background:#F2F0F0;
+	margin: 10px auto;
+	padding: 25px 20px; 
+	border: 1px solid #cacad9;
+	overflow: auto;
+	font-size: 13px; 
+	color: #575748;
+}
+@media screen and (max-width: 480px) {
+	.form{
+		width: calc(95% - 40px);
+	}	
+}
+.form h2{
+	font-size: 1.4em;
+	font-weight: bold;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;	
+	padding-bottom: 5px;
+}
+.form label{
+	display: block; 
+	margin: 10px 0; 
+	overflow: auto;
+}
+
+.form input[type=text], 
+.form textarea {
+	box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	padding: 8px 1.5%;
+	outline: none;
+	resize: none;
+	width: 81%;
+	float: right;
+	font: 1.1em Arial, Helvetica, sans-serif;
+}
+.form textarea {
+	height: 200px;
+	white-space: normal;	
+	line-height: 1.7em;
+}
+
+.form input[type=text]:focus, 
+.form textarea:focus{
+	border: 1px solid #00A1D6;
+}
+.form input[type=submit], 
+.form input[type=button]{
+	border: none;
+	padding: 8px 15px;
+	background: #00A1D6;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	float: right;
+	display: block;
+}
+.form input[type=submit]:hover,
+.form input[type=button]:hover{
+	background: #006cd9;color: #fff;
+}
+.loading{
+	height: 32px;
+	display: none;
+	background: url('load.gif') no-repeat;
+	padding: 7px;
+	padding-left: 40px;
+	color: #353526; 
+	font-weight: bold;
+	width: auto; 
+	float: right;
+}
+.fail{
+	width: 95%;
+	color: #ff4c4d;
+	border: 2px solid #ff4c4d;
+	border-radius: 4px;
+	padding: 4px 10px;
+}

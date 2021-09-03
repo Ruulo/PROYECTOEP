@@ -1,0 +1,11 @@
+
+
+.result {
+    border: 100px solid grey;
+    padding: 10px;
+}
+
+.result img {
+    width: 100%;
+    height: auto;
+

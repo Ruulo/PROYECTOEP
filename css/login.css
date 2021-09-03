@@ -1,0 +1,130 @@
+
+#apDiv1 {
+position: absolute;
+width: 255px;
+height: 64px;
+z-index: 1;
+	left: 1111px;
+	top: 530px;
+}
+form {
+	  background: rgba(0, 0, 0, 0.8);
+    width: 300px;
+    min-height: 270px;
+    height: auto;
+    border-radius: 2em;
+    margin: 1% auto;
+    box-shadow: 0 9px 40px hsla(20, 66%, 72%, 0.31);
+    padding: 1%;
+	position:center;
+}
+/*.con contiene los elementos del formulario - INICIO SESION - 2 form-input - 2 ICONOS  - BOTON INICIAR */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20 auto;
+}
+/*Contiene el titulo del formulario (INICIO DE SESION */
+header {
+    margin: 1% auto 8% auto;
+    text-align: center; }
+/* Login title form form */
+.input-item {
+    background: #fff;
+    color: #000;
+    padding: 16.8px 0px 16.5px 10px;
+    border-radius:6px 0px 0px 5px; }
+
+/*-------------------------------------------------------------*/
+/* Show/hide password Font Icon */
+/* inputs form  */
+/*input[id="txt-input"] {width: 250px;}*/
+/* focus  */
+/*input:focus {
+    border-radius: 2em;
+    box-shadow: 0 0 5px rgba(53,122,232);
+	border:1px solid rgba(53,122,232);
+	}*/
+	input[class="form-input"]{
+		width: 260px;
+		height: 50px;
+
+		margin-top: 2%;
+		padding: 15px;
+
+		font-size: 16px;
+		color: #5E6472;
+
+		outline: none;
+		border: none;
+
+		border-radius: 2em;
+		transition: 0.2s linear;
+	}
+	#mono{
+	background: #fff;
+	color: #000;
+	padding: 10px 0px 10px 0px;
+	border-radius: 2em;
+	/*position: absolute;
+	top: 226px; left: 805px;*/
+	position: relative;
+	left: 84%;
+	top: -14%;
+	}
+	#eye {
+		background: #fff;
+		color: #000;
+		margin: 7.9px 0 0 0;
+		margin-left: -900px;
+		padding: 10px 0px 10px 0px;
+		border-radius: 2em;
+		float: right;
+		position: relative;
+		right: 9%;
+		top: 2.4%;
+		z-index: 5;
+		cursor: pointer;
+	}
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+/*input[type="text"] {min-width: 250px;*/
+/* buttons  */
+/*header h2{font-size: 150%; color: #000; }*/
+.alert{
+color:#fff;
+text-align:center;
+position: absolute;
+top: 355px; left: 578px;
+}
+
+button {
+    display: inline-block;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    padding: 0 20px;
+	  background-color:#0041b0;
+    border-radius: 2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+		position: relative;
+		top: 25px; left: 50px;
+    letter-spacing: 0.05em;
+}
+/*#apDiv2 {
+position: absolute;
+width: 1168px;
+height: 190px;
+z-index: 1;
+left: 731px;
+top: 72px;
+}*/

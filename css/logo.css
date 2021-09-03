@@ -1,0 +1,142 @@
+
+
+
+
+/* Start form  attributes */
+form {
+	   background: rgba(0, 0, 0, 0.8);
+	 
+    width: 300px;
+    min-height: 270px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 40px hsla(20, 66%, 72%, 0.31);
+    padding: 1%;
+	position:center;
+	 
+   /*background-image: linear-gradient(-225deg, #fff 50%, #fff 50%);*/
+}
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+      margin: 0 auto;
+}
+
+/* the header form form */
+header {
+    margin: 1% auto 8% auto;
+    text-align: center;
+	
+
+}
+/* Login title form form */
+header h2{
+    font-size: 150%;
+   color: #000;
+}
+
+.alert{
+color:#fff;
+text-align:center;
+}
+
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+
+.input-item {
+    background: #fff;
+    color: #000;
+    padding: 16.8px 0px 16.5px 10px;
+    border-radius:6px 0px 0px 5px;
+}
+
+
+
+/* Show/hide password Font Icon */
+#eye {
+    background: #fff;
+    color: #000;
+  
+    margin: 7.9px 0 0 0;
+    margin-left: -900px;
+    padding: 15.5px 9px 18px 10px;
+    border-radius: 6px;
+  
+    float: right;
+    position: relative;
+    right: 0%;
+    top: -.2%;
+    z-index: 5;
+    
+    cursor: pointer;
+}
+/* inputs form  */
+input[class="form-input"]{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 16px;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+input[id="txt-input"] {width: 250px;}
+/* focus  */
+input:focus {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(53,122,232);
+	border:1px solid rgba(53,122,232);
+	}
+
+
+
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+/* input[type="text"] {min-width: 250px;} */
+/* buttons  */
+button {
+    display: inline-block;
+    color: #fff;
+    width: 280px;
+    height: 50px;
+  
+    padding: 0 20px;
+
+	background-color:#0041b0;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+
+}
+
+
+
+
+

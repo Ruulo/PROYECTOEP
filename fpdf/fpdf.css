@@ -1,0 +1,21 @@
+body {font-family:"Times New Roman",serif} /**TIPO DE LETRA DEL CUERPO**/ 
+h1 {font:bold 135% Arial,sans-serif; color:#4000A0; margin-bottom:0.9em} /*TIPO DE LETRA, Y COLOR*/
+h2 {font:bold 95% Arial,sans-serif; color:#900000; margin-top:1.5em; margin-bottom:1em} /*TIPO DE LETRA,COLOR Y MARGEN*/
+dl.param dt {text-decoration:underline} /*PATRAMETR DT*/
+dl.param dd {margin-top:1em; margin-bottom:1em} /*PATRAMETR DD**/
+dl.param ul {margin-top:1em; margin-bottom:1em}/*PATRAMETR UL*/
+tt, code, kbd {font-family:"Courier New",Courier,monospace; font-size:82%} /*PATRAMETR TT, CODE, KBD*/
+div.source {margin-top:1.4em; margin-bottom:1.3em}/*DIVICION FUENTE*/
+div.source pre {display:table; border:1px solid #24246A; width:100%; margin:0em; font-family:inherit; font-size:100%}
+div.source code {display:block; border:1px solid #C5C5EC; background-color:#F0F5FF; padding:6px; color:#000000}
+div.doc-source {margin-top:1.4em; margin-bottom:1.3em}/**DIVICION DEL DOCUMENTO, MARGEN*/
+div.doc-source pre {display:table; width:100%; margin:0em; font-family:inherit; font-size:100%}
+div.doc-source code {display:block; background-color:#E0E0E0; padding:4px} 
+.kw {color:#000080; font-weight:bold} /*COLOR  DE LA LETRA Y UBICACION .KW*/
+.str {color:#CC0000} /*COLOR DE LA LETRA DE .SRT*/
+.cmt {color:#008000}/*COLOR DE LAS LETRAS DE .CMT*/
+p.demo {text-align:center; margin-top:-0.9em} /*MANIFIESTACION, MARGEN Y TEXTO*/ 
+a.demo {text-decoration:none; font-weight:bold; color:#0000CC} /*MANIFESTACION, TEXTO DECORACION , UBICACION Y COLOR*/ 
+a.demo:link {text-decoration:none; font-weight:bold; color:#0000CC}/*MANIFESTACION DEL ENLACE, COLOR, UBICACION DECORACION*/
+a.demo:hover {text-decoration:none; font-weight:bold; color:#0000FF} /*MANIFESTACION DEL FLOTADOR, COLOR, UBICACION DECORACION*/
+a.demo:active {text-decoration:none; font-weight:bold; color:#0000FF}/*MANIFESTACION ACTIVA, COLOR, UBICACION DECORACION*/

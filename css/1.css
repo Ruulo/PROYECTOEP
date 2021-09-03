@@ -1,0 +1,127 @@
+
+
+img.a:hover{ /* COLOR DE IMAGEN*/
+	color:;}
+	
+
+		div.q{ /* DIVICION*/
+			width:225px;
+			height:200px;
+			float:left;
+			 }
+		
+		div#uno{ /* COLOR DE DIVICION 1 , FONDO*/
+			
+  background: -webkit-linear-gradient(90deg, #edf7fc  10%, #fcfcfc 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #edf7fc 10%, #fcfcfc 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #edf7fc   10%,#fcfcfc   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #edf7fc  10%, #fcfcfc 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #edf7fc  10%, #fcfcfc 90%); /* W3C */}
+		div#dos{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			
+  background: -webkit-linear-gradient(90deg, #fcfcfc   10%, #edf7fc 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #fcfcfc  10%,  #edf7fc 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #fcfcfc  10%,  #edf7fc 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #fcfcfc   10%, #edf7fc 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #fcfcfc   10%, #edf7fc 90%); /* W3C */}
+		
+			
+img.icon{
+	height:70px;
+	width:70px;
+	display:block;
+margin-top: 20px;
+
+}
+
+p.text{ /* TEXTO*/
+	
+font-size:1.12em;
+color: #000000;	
+text-align:center;
+padding-top:10px;
+opacity:.5;
+-webkit-transition:padding-top .4s;
+
+
+	
+	
+}
+p.text a{ /* TEXTO*/
+	
+	
+	text-decoration:none;
+	color:#000;
+}
+div.q:hover{ /* UBICACION DE LA DIVICION*/
+	height:210px;
+	
+	
+}
+div.q:hover p.text{ /*TAMAÑO DE LA DIVICION Y DEL TEXTO */
+	
+	padding-top:20px;
+	
+}
+div.q:hover img.icon{ /* DIVICION Y ICONO DE LA IMAGEN*/
+ 
+}
+div#below{ /* DIVICION*/
+	margin-top: 20px;
+}
+img.n{/* IMAGEN*/
+	height:70px;
+	width:70px;
+	display:block;
+	margin:  12px auto;	
+}
+
+
+		div.b{ /* DIVICION*/
+			width:225px;
+			height:200px;
+			float:left;
+			 
+			 
+		}
+		
+		div#c{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+		
+ background: -webkit-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F48FB1   10%, #FCE4EC  90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F48FB1   10%, #FCE4EC   90%); /* W3C */
+        
+        
+			
+			
+		}
+		div#d{ /* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			background-color:rgb(186,186,168) ;
+		}
+		
+		div#e{/* UBICACION DEL CONTENEDOR2R, TAMANO DEL FONDO, COLOR DE LA LETRA*/
+			background-color:rgb(186,186,168);
+			
+			
+		}
+		
+		div#f{
+  background: -webkit-linear-gradient(90deg, #edf7fc  10%, #ffffff  90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #edf7fc  10%, #ffffff 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #edf7fc   10%, #ffffff   90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #edf7fc  10%, #ffffff   90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #edf7fc  10%, #ffffff  90%); /* W3C */}
+        
+			
+			
+		}
+p.headtext{
+	text-align:center;
+	font-size:18px;
+
+
+   
+
+

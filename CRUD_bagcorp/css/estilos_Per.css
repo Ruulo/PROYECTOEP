@@ -1,0 +1,144 @@
+body{
+    background-color: #f5f5f5;
+    font-family: monospace !important;
+    font-size: 15px;
+}
+ table.dataTable thead { /*colores que le dan estilo a el datatable*/
+    background:#4295ec;
+    color:white;
+}
+.caja{ /*div que contiene el encavezado del datatable*/
+  padding: 5px;
+  box-shadow: 10px 10px 50px 1px #7c7c81;
+}
+.btn-group{
+  height:25px;
+  width: 100px;
+  /*overflow: scroll;*/
+}
+#barra{
+  overflow: scroll;
+}
+.btn1{ /*BOTON lapicito editar que aparece repetido en los resultados*/
+    cursor: pointer;
+}
+.btn2{ /*BOTON 2 delete(aparece repetido en los resultados)*/
+    cursor: pointer;
+}
+.btn3{ /*BOTON lapicito editar que aparece repetido en los resultados*/
+    cursor: pointer;
+}
+.btn4{ /*BOTON 2 delete(aparece repetido en los resultados)*/
+    cursor: pointer;
+}
+.search{/*BOTON de busqueda que esta en fechas*/
+  	background:#4cb6ea;
+  	color: #fff;
+  	border: none;
+    border-radius: 15%;
+    cursor: pointer;
+}
+#btnNuevo{/*BOTON nuevo de añadir */
+  	background:#4cb6ea;
+  	color: #fff;
+  	border: none;
+    border-radius: 15%;
+    cursor: pointer;
+}
+#btnAddRepo{
+  background:#4cb6ea;
+  color: #fff;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+#btnExcel{/*BOTON de descarga de excel*/
+  	background: #6db371;
+  	color: #fff;
+  	border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    float: right;
+}
+
+#divbtnAñadir{
+  position: absolute;
+   top: 17%;
+   left: 8.9%;
+}
+#divFechasPer{
+  float: left;
+  padding-left: 200px;
+  padding-top: 35px;
+}
+#divTurno{
+  padding-left: 110px;
+  padding-top: 35px;
+}
+#lupita{
+  padding-top: 0px;
+  background:#4cb6ea;
+  color: #fff;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+#divlupita{
+  position: relative;
+   top: -27px;
+   left: 110px;
+
+}
+#divDescarga{
+  float: right;
+  padding-top: 35px;
+}
+#modo{
+  color:white;
+  background-color:#18c8ff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em 2em 0.2em 2em;
+  cursor: pointer;
+  padding-left: 19%;
+}
+#divmodo{
+  position: absolute;
+   top: 9%;
+   left: 8.9%;
+}
+
+#DataTable tbody td {
+    text-align: center;
+}
+#divbtnAddRepo{
+  position: absolute;
+   top: 17%;
+   left: 8.9%;
+}
+#fecha_repo{
+  margin-top: -7px;
+}
+#lblfecha{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#fecharepo_per{
+  margin-top: -7px;
+}
+#lblevento{
+border-top: 5px;
+  margin-left: 10px;
+}
+#idrepo_pe{
+    margin-top: -7px;
+ border-radius: 10% / 50%;
+}
+table td {
+  word-wrap: break-word;
+  max-width: 280px;
+}
+#DataTable td{
+  white-space:pre-wrap;
+}
